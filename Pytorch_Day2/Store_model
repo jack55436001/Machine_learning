@@ -1,0 +1,8 @@
+https://github.com/pytorch/pytorch/blob/761d6799beb3afa03657a71776412a2171ee7533/docs/source/notes/
+serialization.rst
+
+https://github.com/pytorch/examples/blob/0984955bb8525452d1c0e4d14499756eae76755b/imagenet/main.py#L139-L145
+
+filename='model'
+torch.save(model.state_dict(), filename)
+
